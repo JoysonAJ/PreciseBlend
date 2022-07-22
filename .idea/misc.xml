@@ -4,7 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_jb.xml" value="0.225" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_job.xml" value="0.2" />
         <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_portal.xml" value="0.225" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_prep_acty.xml" value="0.2" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_first.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_first2.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_practice.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_second.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_second2.xml" value="0.23854166666666668" />
+        <entry key="..\:/Andriod APP/app/src/main/res/layout/fragment_tutorials.xml" value="0.23854166666666668" />
       </map>
     </option>
   </component>
