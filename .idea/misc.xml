@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Andriod APP/app/src/main/res/drawable/btn_bg.xml" value="0.207" />
+        <entry key="..\:/Andriod APP/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.109" />
+        <entry key="..\:/Andriod APP/app/src/main/res/drawable/imput_bg.xml" value="0.207" />
+        <entry key="..\:/Andriod APP/app/src/main/res/drawable/user_circle_24.xml" value="0.207" />
         <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
         <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_jb.xml" value="0.225" />
         <entry key="..\:/Andriod APP/app/src/main/res/layout/activity_job.xml" value="0.2" />
