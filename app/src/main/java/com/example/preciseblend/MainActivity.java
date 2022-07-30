@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void validCredntial(String userName, String userPassword) {
-        if(userName.equals(use) && userPassword.equals(psw) ){
+//        if(userName.equals(use) && userPassword.equals(psw) ){
             Intent intent =new Intent(MainActivity.this,HomePage.class);
             startActivity(intent);
-        }
+//        }
     }
 }

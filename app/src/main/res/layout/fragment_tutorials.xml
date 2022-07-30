@@ -29,6 +29,7 @@
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
                 android:layout_marginBottom="25dp"
+
                 >
 
                 <LinearLayout
@@ -37,7 +38,9 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#EA870E"
+
+                    android:background="#00FFFFFF"
+
                     >
                     <ImageButton
                         android:id="@+id/img1"
@@ -45,8 +48,7 @@
                         android:layout_height="match_parent"
                         android:layout_row="0"
                         android:layout_column="3"
-
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/cpp"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -56,7 +58,7 @@
                         android:textFontWeight="@integer/material_motion_duration_short_2"
                         android:textColor="@color/black"
                         android:textSize="25dp"
-                        android:background="#00F57C00"/>
+                        />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
