@@ -24,7 +24,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
@@ -48,13 +48,24 @@
 
                         android:background="@drawable/cpp" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text=   "C++  DSA "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
@@ -77,6 +88,16 @@
                         android:layout_column="3"
                         android:layout_marginLeft="0dp"
                         android:background="@drawable/codeharry" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text=   "C++ "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -106,7 +127,16 @@
                         android:layout_row="0"
                         android:layout_column="3"
                         android:layout_marginLeft="0dp"
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/javaharry" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text=   "JAVA "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -114,7 +144,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
@@ -136,7 +167,17 @@
                         android:layout_row="0"
                         android:layout_column="3"
 
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/javaapna" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="JAVA "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -166,7 +207,16 @@
                         android:layout_row="0"
                         android:layout_column="3"
 
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/python_telusko" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text= " PYTHON "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -174,7 +224,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
@@ -195,7 +246,17 @@
                         android:layout_height="match_parent"
                         android:layout_row="0"
                         android:layout_column="3"
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/js_hitesh" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text=" JAVASCRIPT "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -224,7 +285,17 @@
                         android:layout_height="match_parent"
                         android:layout_row="0"
                         android:layout_column="3"
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/go_hitesh" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text=   "GOLANG "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -232,7 +303,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="19dp"
                 app:cardElevation="10dp"
@@ -253,66 +325,17 @@
                         android:layout_height="match_parent"
                         android:layout_row="0"
                         android:layout_column="3"
-                        android:background="@drawable/cpp" />
+                        android:background="@drawable/nodejs_teluko" />
 
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="20dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp"
-                    android:background="#EA870E"
-                    >
-                    <ImageButton
-                        android:id="@+id/img9"
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_row="0"
-                        android:layout_column="3"
-                        android:background="@drawable/cpp" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="20dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp"
-                    android:background="#EA870E"
-                    >
-                    <ImageButton
-                        android:id="@+id/img10"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_row="0"
-                        android:layout_column="3"
-
-                        android:background="@drawable/cpp" />
+                        android:layout_height="60dp"
+                        android:text=   "NODE JS "
+                        android:textAlignment="center"
+                        android:textFontWeight="@integer/material_motion_duration_short_2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:background="#00F57C00"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
