@@ -52,19 +52,3 @@ public class PrepActy extends AppCompatActivity {
         fragment_Transaction.replace(R.id.frame,fragment).commit();
     }
 }
-/*
-    Button backHome;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_portal);
-
-        backHome = findViewById(R.id.bkHome);
-
-        backHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent( portalAct.this,HomePage.class);
-                startActivity(intent);
-            }
-        });*/
