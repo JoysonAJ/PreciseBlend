@@ -9,10 +9,10 @@
 
     <Button
         android:id="@+id/JobBack"
-        android:text="BACK"
-        android:textSize="25dp"
         android:layout_width="161dp"
         android:layout_height="66dp"
+        android:text="BACK"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -20,12 +20,313 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="HELLO WORLD"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="128dp"
+        android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/portalSearch"
+            android:layout_width="398dp"
+            android:layout_height="67dp"
+            android:hint="Enter the job Portal"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/btn_bg"
+            android:text="Search"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/indeed"
+
+                        />
+
+                    <Button
+                        android:id="@+id/indeed"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/glassdoor"
+
+                        />
+
+                    <Button
+                        android:id="@+id/glassDoor"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/angel_list"
+
+                        />
+
+                    <Button
+                        android:id="@+id/angeList"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/linkedin"
+
+                        />
+
+                    <Button
+                        android:id="@+id/linkedIn"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/getwork"
+
+                        />
+
+                    <Button
+                        android:id="@+id/getWork"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="25dp"
+
+                app:cardCornerRadius="19dp"
+                app:cardElevation="100dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/naukri"
+
+                        />
+
+                    <Button
+                        android:id="@+id/naukri"
+                        android:layout_width="180dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="View" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
