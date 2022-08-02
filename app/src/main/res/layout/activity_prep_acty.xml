@@ -40,11 +40,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.995"
-        tools:layout_editor_absoluteX="-16dp">
+        tools:layout_editor_absoluteX="-16dp"
+        android:background="#00FFFFFF">
 
         <androidx.cardview.widget.CardView
             android:layout_width="180dp"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            android:background="#00FFFFFF">
 
             <Button
                 android:id="@+id/tutorials"
@@ -59,7 +61,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.975"
                 android:textColor="#0725CA"
-                android:background="#02FFFFFF"/>
+                android:background="#00FFFFFF"/>
 
 
         </androidx.cardview.widget.CardView>
@@ -68,7 +70,8 @@
 
             android:layout_width="180dp"
             android:layout_height="80dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="20dp"
+            android:background="#00FFFFFF">
 
             <Button
                 android:id="@+id/pract"
@@ -83,7 +86,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.975"
                 android:textColor="#0725CA"
-                android:background="#02FFFFFF"/>
+                android:background="#00FFFFFF"/>
 
         </androidx.cardview.widget.CardView>
 
