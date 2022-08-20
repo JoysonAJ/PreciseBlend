@@ -14,6 +14,9 @@
         android:theme="@style/Theme.PreciseBlend"
         tools:targetApi="31">
         <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
             android:name=".JbAct"
             android:exported="false" />
         <activity
