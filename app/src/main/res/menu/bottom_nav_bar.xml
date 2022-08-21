@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/tutorials"
+        android:title="Tutorial"
+        android:icon="@drawable/ic_navbar_tutorial"/>
+    <item
+        android:id="@+id/pract"
+        android:icon="@drawable/ic_bottom_navbar_practice"
+        android:title="Practice" />
+
+
+
+
+</menu>
