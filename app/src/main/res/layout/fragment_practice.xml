@@ -5,12 +5,13 @@
     android:layout_marginTop="65dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/night_blur"
     tools:context=".Practice">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#010193">
+        android:layout_height="685dp"
+        android:background="#00010193">
 
         <GridLayout
             android:layout_width="match_parent"
@@ -25,21 +26,21 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -56,11 +57,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="20dp"
                 android:text="Online Compiler"
                 android:textColor="#EABD1C"
-                android:textSize="40dp"
-                android:padding="20dp"
-                />
+                android:textSize="40dp" />
 
 
             <androidx.cardview.widget.CardView
@@ -68,18 +68,18 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
-                >
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -94,70 +94,68 @@
             </androidx.cardview.widget.CardView>
 
 
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                app:cardCornerRadius="10dp"-->
+
+            <!--                app:cardElevation="10dp"-->
+            <!--                android:layout_marginBottom="25dp"-->
+            <!--                android:layout_marginRight="30dp"-->
+
+            <!--                >-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    android:background="#ECEBE5"-->
 
 
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="300dp"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_marginLeft="30dp"-->
-<!--                android:layout_marginTop="20dp"-->
-<!--                app:cardCornerRadius="10dp"-->
+            <!--                    >-->
 
-<!--                app:cardElevation="10dp"-->
-<!--                android:layout_marginBottom="25dp"-->
-<!--                android:layout_marginRight="30dp"-->
-
-<!--                >-->
-
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:gravity="center"-->
-<!--                    android:orientation="vertical"-->
-<!--                    android:padding="5dp"-->
-<!--                    android:background="#ECEBE5"-->
-
-
-<!--                    >-->
-
-<!--                    <ImageButton-->
-<!--                        android:id="@+id/leetcode3"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:background="@drawable/leetcode"-->
-<!--                        android:contextClickable="true"></ImageButton>-->
-<!--                </LinearLayout>-->
-<!--            </androidx.cardview.widget.CardView>-->
+            <!--                    <ImageButton-->
+            <!--                        android:id="@+id/leetcode3"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:background="@drawable/leetcode"-->
+            <!--                        android:contextClickable="true"></ImageButton>-->
+            <!--                </LinearLayout>-->
+            <!--            </androidx.cardview.widget.CardView>-->
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="20dp"
                 android:text="Practice Coding"
                 android:textColor="@color/teal_700"
-                android:textSize="40dp"
-                android:padding="20dp"
-                />
+                android:textSize="40dp" />
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -176,21 +174,21 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -210,21 +208,21 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -243,21 +241,21 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >
@@ -276,21 +274,21 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="10dp"
-
-                app:cardElevation="10dp"
-                android:layout_marginBottom="25dp"
                 android:layout_marginRight="30dp"
+
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
 
                 >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ECEBE5"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="5dp"
-                    android:background="#ECEBE5"
 
 
                     >

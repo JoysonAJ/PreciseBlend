@@ -2,15 +2,17 @@ package com.example.preciseblend;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class JbAct extends AppCompatActivity {
     Button backHome;
-
+    EditText searchJob;
     Button indeed, glassDoor, getWork, linkdIn, angleList, naukri;
     Button searchApi;
 
@@ -27,6 +29,19 @@ public class JbAct extends AppCompatActivity {
         linkdIn = findViewById(R.id.linkedIn);
         angleList = findViewById(R.id.angeList);
         naukri = findViewById(R.id.naukri);
+
+        searchApi = findViewById(R.id.searchButton);
+        searchJob = findViewById(R.id.portalSearch);
+
+        searchApi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Uri uri = Uri.parse("https://www.google.com/search?q="+searchJob.getText().toString());
+                Intent gSearchIntent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(gSearchIntent);
+            }
+        });
 
         backHome.setOnClickListener(new View.OnClickListener() {
             @Override

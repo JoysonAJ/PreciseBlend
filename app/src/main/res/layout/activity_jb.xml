@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/port_blur"
     tools:context=".JbAct">
 
 
@@ -36,7 +37,9 @@
             android:layout_width="398dp"
             android:layout_height="67dp"
             android:hint="Enter the job Portal"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/searchButton"
