@@ -71,12 +71,25 @@
         app:layout_constraintTop_toBottomOf="@+id/usn" />
 
     <Button
+        android:id="@+id/registerHere"
+        android:layout_width="224dp"
+        android:layout_height="77dp"
+        android:background="#00FFFFFF"
+        android:onClick="SwitchUser"
+        android:text="Register Here"
+        android:textColor="#FBC02D"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/Login"
+        app:layout_constraintTop_toBottomOf="@+id/pas"
+        app:layout_constraintVertical_bias="0.627"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
 
         android:id="@+id/Login"
         android:layout_width="331dp"
         android:layout_height="79dp"
         android:layout_marginTop="36dp"
-        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         android:background="@drawable/btn_bg"
         android:padding="2dp"
         android:paddingStart="25dp"
@@ -87,12 +100,14 @@
         android:paddingBottom="35dp"
         android:shadowColor="@color/white"
         android:text="LOGIN"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pas"
-        app:layout_constraintVertical_bias="0.126"
+        app:layout_constraintVertical_bias="0.398"
         app:rippleColor="#937428" />
 
 

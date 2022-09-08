@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
 //        }
     }
+
+    public void SwitchUser(View view) {
+        Intent intent = new Intent(MainActivity.this,Registration.class);
+        startActivity(intent);
+    }
 }
