@@ -15,7 +15,6 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="35sp"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.496"
         tools:layout_editor_absoluteX="28dp"
@@ -45,7 +44,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="28dp"
         android:hint="Enter the Email"
-        android:inputType="textEmailAddress"
+        android:inputType="text"
         android:textAlignment="center"
         android:textColor="#FFA000"
         android:textColorHighlight="#F3EBEB"
@@ -96,6 +95,7 @@
 
 
     <Button
+        android:id="@+id/LoginPage"
         android:layout_width="162dp"
         android:layout_height="47dp"
         android:layout_marginTop="20dp"
@@ -103,7 +103,8 @@
         android:text="login here"
         android:textSize="19dp"
         android:textColor="#FBC02D"
-        app:layout_constraintBottom_toTopOf="@+id/Login"
+        android:onClick="SwitchToLogin"
+        app:layout_constraintBottom_toTopOf="@+id/signIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +112,7 @@
 
     <Button
 
-        android:id="@+id/Login"
+        android:id="@+id/signIn"
         android:layout_width="331dp"
         android:layout_height="79dp"
         android:background="@drawable/btn_bg"
@@ -124,6 +125,7 @@
         android:paddingBottom="35dp"
         android:shadowColor="@color/white"
         android:text="SIGN IN"
+        android:onClick="loginbtn"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

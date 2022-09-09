@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580145424707",
+    "project_id": "userinfo-7c0aa",
+    "storage_bucket": "userinfo-7c0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580145424707:android:33b0aec101b0d8d6e7e7f6",
+        "android_client_info": {
+          "package_name": "com.example.preciseblend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580145424707-3o1t9kkmhgsb1i81p79rtcad22rcucnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgPubkvUAzW6xDe3iSvtfsRStWXrHAdPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580145424707-3o1t9kkmhgsb1i81p79rtcad22rcucnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
