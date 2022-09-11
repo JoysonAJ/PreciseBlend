@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
+    android:background="@drawable/home_card_image"
     tools:context=".HomePage">
 
     <LinearLayout
@@ -19,32 +20,36 @@
         tools:layout_editor_absoluteX="-16dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="100dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/Transparent">
 
             <Button
                 android:id="@+id/Fragment1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Fragment "
-
-                />
+                android:background="@drawable/btn_bg"
+                android:text="tutorial "
+                android:theme="@style/Theme.AppCompat" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="100dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/Transparent">
 
             <Button
                 android:id="@+id/Fragment2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Fragment " />
+                android:background="@drawable/btn_bg"
+                android:text="APPLY \n jobs "
+                android:theme="@style/Theme.AppCompat" />
         </androidx.cardview.widget.CardView>
 
 
